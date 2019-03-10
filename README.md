@@ -1,11 +1,11 @@
  
- - Nkit基础工程结构模板
-   - cakebuild支持
+ - Nkit鍩虹宸ョ▼缁撴瀯妯℃澘
+   - cakebuild鏀寔
       - xunit
 	  - nuget package
 	  - 
    - CI
-     - appveryor ci支持
+     - appveryor ci鏀寔
   
  - TODO
   - cakebuild 
