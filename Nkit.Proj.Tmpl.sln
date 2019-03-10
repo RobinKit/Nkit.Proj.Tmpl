@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{22C28F63-ABA1-4AC8-A3F8-BE2513E7F11D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CCAEDF67-43F5-4C1A-98F0-5760AC67040E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		appveyor.yml = appveyor.yml
+		build.cake = build.cake
+		build.ps1 = build.ps1
+		common.props = common.props
+		common.test.props = common.test.props
+		README.md = README.md
+		version.props = version.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C763B71A-6296-412A-8063-385C8DEF0FE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nkit.Proj.Tmpl", "src\Nkit.Proj.Tmpl\Nkit.Proj.Tmpl.csproj", "{8FE26180-DDCB-4D85-A6E6-E6CB815E4B6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nkit.Proj.Tmpl.Tests", "test\Nkit.Proj.Tmpl.Tests\Nkit.Proj.Tmpl.Tests.csproj", "{8FCAF277-E8E0-4ECE-B6D3-7135713C4CB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FE26180-DDCB-4D85-A6E6-E6CB815E4B6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FE26180-DDCB-4D85-A6E6-E6CB815E4B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FE26180-DDCB-4D85-A6E6-E6CB815E4B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCAF277-E8E0-4ECE-B6D3-7135713C4CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCAF277-E8E0-4ECE-B6D3-7135713C4CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCAF277-E8E0-4ECE-B6D3-7135713C4CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCAF277-E8E0-4ECE-B6D3-7135713C4CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FE26180-DDCB-4D85-A6E6-E6CB815E4B6B} = {22C28F63-ABA1-4AC8-A3F8-BE2513E7F11D}
+		{8FCAF277-E8E0-4ECE-B6D3-7135713C4CB8} = {C763B71A-6296-412A-8063-385C8DEF0FE3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2290DD7-8594-4CD9-A61F-4215AE81B7B1}
+	EndGlobalSection
+EndGlobal

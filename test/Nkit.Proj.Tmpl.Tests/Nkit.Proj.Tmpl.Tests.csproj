@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+   <Import Project="..\..\common.test.props"></Import>
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Nkit.Proj.Tmpl\Nkit.Proj.Tmpl.csproj" />
+  </ItemGroup>
+ 
+</Project>

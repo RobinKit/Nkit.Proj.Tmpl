@@ -1,0 +1,21 @@
+<Project>
+  <PropertyGroup> 
+    <VersionPrefix>3.2.2</VersionPrefix>
+    <assemblyFileVersion>3.2.2</assemblyFileVersion>
+  
+    <NoWarn>$(NoWarn);CS1591</NoWarn>  
+    <PackageIconUrl>https://raw.githubusercontent.com/RobinKit/Asset/master/uikit.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/RobinKit/Nkit.Autofac</PackageProjectUrl> 
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/RobinKit/Nkit.Autofac</RepositoryUrl> 
+    <Authors>RobinKit-Groups</Authors>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup> 
+
+  <PropertyGroup Condition="$(Configuration)==Release"> 
+    <PackageOutputPath>../../artifacts/nupkg</PackageOutputPath>
+  </PropertyGroup>
+  <!--<PropertyGroup >
+    <OutputPath>bin\$(Configuration)\$(TargetFramework)\</OutputPath>
+  </PropertyGroup>-->
+</Project>

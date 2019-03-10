@@ -1,0 +1,11 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props"></Import>
+  
+  <PropertyGroup> 
+    <TargetFrameworks>netstandard2.0</TargetFrameworks> 
+    <PackageTags>Autofac;DynamicProxy;Resolve;Composition Root</PackageTags>
+    <Description>DynamicProxy integration for Nkit.IocManager</Description>
+  </PropertyGroup>
+
+</Project>
